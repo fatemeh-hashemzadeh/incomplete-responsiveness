@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="w-full h-[90px] 2xl:container mx-auto">
+        <div class="row h-full *:h-full px-6 lg:px-12">
+            <figure class="w-1/2 xl:w-1/4 flex items-center">
+                <img class="h-1/4 lg:h-2/7" src="img/nutritionist-logo-svg.svg" alt="">
+            </figure>
+            <nav class="hidden xl:flex xl:w-3/6 pl-20 ">
+                <ul
+                    class="w-full h-full row font-bold *:list-none *:h-full *:flex *:items-center justify-center gap-8 **:capitalize **:text-[16px]">
+                    <li class="relative group"><a class="py-3 flex " href=""><span class="dark:text-red-500">home</span>
+                            <i class="ms-1.5 mt-1.5"><svg class="text-red-700 w-[12px] h-[12px] mx-[-2px] my-[2px]"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                                    stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </i></a>
+                        <!-- drop menu/////////////////// -->
+                        <ul
+                            class="z-40 group-hover:h-[80px] w-[170px] h-[0]  overflow-hidden duration-700 bg absolute left-[-20px] top-[80px]">
+                            <li class=" h-full row p-2.5 justify-between **:!text-[15px]">
+                                <div class="btnInDrop ">
+                                    <h3 class="text-black text-center hover:text-white">home-alternate</h3>
+                                </div>
+                        </ul>
+
+                        <!-- drop menu/.........../////// -->
+
+                    </li>
+                    <li><a class="py-3 " href="">about</a></li>
+                    <li><a class="py-3 " href="">recipes</a></li>
+                    <li><a class="py-3 " href="">guides</a></li>
+                    <li><a class="py-3 " href="">journal</a></li>
+                    <li class="relative group"><a class="py-3 flex" href=""><span>shop</span> <i
+                                class="ms-1.5 mt-1.5"><svg class="w-[12px] h-[12px] my-[2px] mx-[-4px]"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                                    stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </i></a>
+                        <!-- drop menu////////////////////// -->
+                        <ul
+                            class="z-100  group-hover:h-[150px] w-[0] h-[0] w-[200px] overflow-hidden duration-700 bg absolute left-0 top-[88px]">
+                            <li class="bg-white-100 row justify-between **:!text-[13px] ">
+                                <div class="btnInDrop">
+                                    <h3 class="text-black hover:text-white">simple product</h3>
+                                </div>
+                                <div class="btnInDrop">
+                                    <h3 class="text-black hover:text-white">variable product</h3>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <!-- drop menu////////////////////// -->
+                    </li>
+                    <li><a class="py-3" href="">contact</a></li>
+                </ul>
+            </nav>
+            <div class="w-1/2 xl:w-1/4 flex flex-wrap gap-4 justify-end mt-8">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg>
+                </span>
+                <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- end header/////////////////////// -->
+
+    <section class="relative w-full m-h-[520px] bg-[url(../img/00000.jpg)] bg-cover bg-center">
+        <!-- into///////. -->
+        <div class="h-full w-full 2xl:container mx-auto pt-[50px]">
+            <div class=" bg-no-repeat bg-center lg:w-1/2 px-2 mt-10 lg:ps-[10%]">
+                <h3 class=" text-white mx-[-170px] my-15 text-[20px] text-center">Eating healthy does
+                    not need to be a
+                    chore. Instead, it can be a culinary adventure.</h3>
+                <h1 class=" text-white text-[30px] uppercase my-[-40px] font-bold ">Teach your
+                    family to have a healthy
+                    relationship with food.
+                </h1>
+                <div class="row justify-evenly">
+
+                    <div
+                        class="btnInHeader justify-center group hidden md:flex bg-red-600 dark:md:hover:bg-black rounded-sm my-20 mx-[-250px]">
+                        <span class="text-center text-white font-bold">Buy Avada now</span>
+                    </div>
+
+                    <h2 class="text-white my-23 mx-30">View nutrition guides</h2>
+                </div>
+
+                <section class="topSec container-fluid container-xxl ">
+                    <div class="row px-4">
+                        <div class="border col-12 col-md-6">ّ</div>
+                        <figure class="border col-12 col-md-6">
+                            <img src="img/new0101.jpg" alt="">
+                        </figure>
+                    </div>
+                </section>
+            </div>
+    </section>
+
+    <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+    <section class="w-full 2xl:container px-[5%] lg:px-[10%] mx-auto mt-10 ">
+        <div class="row gap-5 my-50">
+            <div class="boxCard w-full md:w-[48%] xl:w-[23%]  translate-y-4">
+                <figure class="relative group overflow-hidden ">
+                    <img class="rounded-sm group-hover:scale-105 duration-700 " src="img/recipe-1@2x.jpg" alt="">
+                </figure>
+                <h3 class="2/3 text-[14px] font-bold my-7">Thin crust spinach and mozzarella pizza</h3>
+                <p class="text-gray-700">45 mins |800 calories</p>
+            </div>
+
+            <div class="boxCard w-full md:w-[48%] xl:w-[23%]">
+                <figure class="relative group overflow-hidden">
+                    <img class="rounded-sm group-hover:scale-105 duration-700" src="img/recipe-6@2x.jpg" alt="">
+                </figure>
+                <h3 class="2/3 text-[14px] font-bold my-7">Thin crust spinach and mozzarella pizza</h3>
+                <p class="text-gray-700">45 mins |800 calories</p>
+            </div>
+
+            <div class="boxCard w-full md:w-[48%] xl:w-[23%]  translate-y-4">
+                <figure class="relative group overflow-hidden">
+                    <img class="rounded-sm group-hover:scale-105 duration-700" src="img/recipe-7@2x.jpg" alt="">
+                </figure>
+                <h3 class="2/3 text-[14px] font-bold my-7">Thin crust spinach and mozzarella pizza</h3>
+                <p class="text-gray-700">45 mins |800 calories</p>
+            </div>
+
+            <div class="boxCard w-full md:w-[48%] xl:w-[23%]">
+                <figure class="relative group overflow-hidden">
+                    <img class="rounded-sm rounded-sm group-hover:scale-105 duration-700" src="img/recipe-2@2x.jpg"
+                        alt="">
+                </figure>
+                <h3 class="2/3 text-[14px] font-bold my-7">Thin crust spinach and mozzarella pizza</h3>
+                <p class="text-gray-700">45 mins |800 calories</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full 2xl:container px-[5%] lg:px-[10%] mx-auto mt-10">
+        <div class="row gap-5 my-80">
+            <div class="boxCard w-full md:w-[48%] xl:w-[23%]  translate-y-4">
+                <figure class="relative group overflow-hidden ">
+                    <img class="rounded-sm group-hover:scale-105 duration-700 " src="img/recipe-3@2x.jpg" alt="">
+                </figure>
+                <h3 class="2/3 text-[14px] font-bold my-7">Thin crust spinach and mozzarella pizza</h3>
+                <p class="text-gray-700">45 mins |800 calories</p>
+            </div>
+
+            <div class="boxCard w-full md:w-[48%] xl:w-[23%]">
+                <figure class="relative group overflow-hidden">
+                    <img class="rounded-sm rounded-sm group-hover:scale-105 duration-700" src="img/recipe-4@2x.jpg"
+                        alt="">
+                </figure>
+                <h3 class="2/3 text-[14px] font-bold my-7">Thin crust spinach and mozzarella pizza</h3>
+                <p class="text-gray-700">45 mins |800 calories</p>
+            </div>
+
+            <div class="boxCard w-full md:w-[48%] xl:w-[23%]  translate-y-4">
+                <figure class="relative group overflow-hidden">
+                    <img class="rounded-sm rounded-sm group-hover:scale-105 duration-700" src="img/recipe-9@2x.jpg"
+                        alt="">
+                </figure>
+                <h3 class="2/3 text-[14px] font-bold my-7">Thin crust spinach and mozzarella pizza</h3>
+                <p class="text-gray-700">45 mins |800 calories</p>
+            </div>
+
+            <div class="boxCard w-full md:w-[48%] xl:w-[23%]">
+                <figure class="relative group overflow-hidden">
+                    <img class="rounded-sm rounded-sm group-hover:scale-105 duration-700" src="img/recipe-1.jpg" alt="">
+                </figure>
+                <h3 class="2/3 text-[14px] font-bold my-7">Thin crust spinach and mozzarella pizza</h3>
+                <p class="text-gray-700">45 mins |800 calories</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- //////////////////////////////////////////////////////// -->
+
+    <section class="w-full 2xl:container px-[5%] lg:px-[10%] mt-20">
+        <div class="row">
+            <div class="w-full h-[600px] md:w-1/2 p-10">
+                <div
+                    class="p-[10%] rounded-r-4xl bg-blue-600 hover:scale-80 duration-400 bg-[url(../img/product-4.jpg)] bg-cover w-full h-full">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-10 h-[600px]">
+                <div class="w-full rounded-4xl p-[10%] *:w-full ">
+                    <h1 class="text-[32px] w-full h-[150px] my-8 font-bold">
+                        Until you get your nutrition right, nothing is going to change.</h1>
+                    <p class="text-gray-700 my-10 ">Et, ullamcorper id arcu feugiat. Nibh lobortis sit ipsum malesuada
+                        etiam lacus placerat ultrices sem at dui.</p>
+                    <div class="row flex justify-center hover:bg-pink-400 duration-700 h-[50px] bg-red-600 relative"> <a
+                            href="" class="text-white absolute top-3">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- //////////////////////////////////////////////////////// -->
+
+
+    <section class="w-full 2xl:container px-[5%] lg:px-[10%] mt-20">
+        <div class="row">
+
+            <div class="w-full md:w-1/2 p-10 h-[600px]">
+                <div class="w-full rounded-4xl p-[10%] *:w-full ">
+                    <h1 class="text-[32px] w-full h-[150px] my-8 font-bold">
+                        Until you get your nutrition right, nothing is going to change.</h1>
+                    <p class="text-gray-700 my-10">Et, ullamcorper id arcu feugiat. Nibh lobortis sit ipsum malesuada
+                        etiam lacus placerat ultrices sem at dui.</p>
+                    <div class="row flex justify-center hover:bg-pink-400 duration-700 h-[50px] bg-red-600 relative"> <a
+                            href="" class="text-white absolute top-3">learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full h-[600px] md:w-1/2 p-10">
+                <div
+                    class="p-[10%] rounded-l-4xl bg-blue-600 hover:scale-80 duration-400 bg-[url(../img/product-1.jpg)] bg-cover w-full h-full">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////////////////////////////////////////////// -->
+
+    <section class="w-full bg-red-100">
+        <div class="w-full 2xl:container mx-auto min-h-12 p-[5%] lg:p-[10%]">
+            <div class="row">
+                <div class="w-full lg:w-1/3">
+                    <img class="w-3/5" src="img/nutritionist-logo-svg.svg" alt="">
+                    <h3 class="text-black text-[30px] my-10">One cannot think well,<br> love well, sleep well, if <br>
+                        one has not dined well.
+                    </h3>
+                    <ul class="flex">
+                        <li class="text-black"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                            </svg>
+                        </li>
+
+                        <li class="text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+                            </svg>
+                        </li>
+
+                        <li class="text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+                            </svg>
+                        </li>
+
+                        <li class="text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                            </svg>
+                        </li>
+
+                        <li class="text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 9 15.553Z" />
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full lg:w-2/3">
+                    <div class="row mx-30">
+                        <h5 class="text-black text-[30px]">Subscribe to the newsletter</h5>
+                        <p class="w-full text-[20px] lg:w-1/2 text-white">Fames amet, amet elit nulla tellus, arcu.</p>
+                    </div>
+                    <div class="row pt-6 justify-between ">
+                        <ul class="*:my-6 px-20 w-full md:w-auto">
+                            <li class="text-black hover:text-red-300 duration-200 text-[18px]">Pink ceramic plates</li>
+                            <li class="text-black hover:text-red-300 duration-200 text-[18px]">Hand made ceramic mugs
+                            </li>
+                            <li class="text-black hover:text-red-300 duration-200 text-[18px]">White ceramic plates</li>
+                            <li class="text-black hover:text-red-300 duration-200 text-[18px]">Colorful ceramic bowls
+                            </li>
+                        </ul>
+
+                        <ul class="*:my-6 *:pr-20 w-full md:w-auto">
+                            <li class="text-black hover:text-red-300 duration-200 text-[18px]">Body & fitness guides
+                            </li>
+                            <li class="text-black hover:text-red-300 duration-200 text-[18px]">Diet & nutrition guides
+                            </li>
+                            <li class="text-black hover:text-red-300 duration-200 text-[18px]">View nutrition guides
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-center text-black border-t-1 bg-red-50 ">
+            <p class="text-center text-red-800">© 2012 - 2025 • Avada is a Website Builder for WordPress and eCommerce <br>
+                fatemeh.hashemzadeh2022@gmail<br>
+            </p>
+        </div>
+
+    </section>
+
+    <!-- //////////////////////////////////////////////////////// -->
+
+</body>
+
+</html>
